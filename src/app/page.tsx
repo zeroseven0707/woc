@@ -131,7 +131,7 @@ const translations = {
   },
 } as const;
 
-type Copy = (typeof translations)["EN"];
+type Copy = (typeof translations)[keyof typeof translations];
 
 /* ---------------- Icons ---------------- */
 

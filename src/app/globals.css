@@ -16,6 +16,8 @@
   --shadow-md: 0 14px 40px rgba(14, 28, 44, 0.1);
 }
 
+/* Tailwind CSS v4 directive; not a standard CSS at-rule. */
+/* stylelint-disable-next-line at-rule-no-unknown */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--text);
